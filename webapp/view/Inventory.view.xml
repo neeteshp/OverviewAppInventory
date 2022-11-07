@@ -1,0 +1,63 @@
+<mvc:View 
+    controllerName="com.sample.ovappinv.controller.Inventory" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    displayBlock="true" 
+    xmlns:core="sap.ui.core" 
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <Table 
+                class="sapUiSizeCompact" 
+                id="table1" 
+                includeItemInSelection="true" 
+                items="{
+                        path: 'tableModel>/Data'
+                    }" 
+                mode="MultiSelect">
+                <headerToolbar>
+                    <OverflowToolbar>
+                        <content>
+                            <ToolbarSpacer />
+                            <SearchField width="20%" class="sapUiSmallMargin" />
+                            <Button type="Emphasized" text="{i18n>appType}" />
+                            <Button type="Emphasized" text="{i18n>pillar}"/>
+                            <Button type="Emphasized" text="{i18n>region}"/>
+                        </content>
+                    </OverflowToolbar>
+                </headerToolbar>
+                <columns>
+                    <Column width="12em">
+                        <Text text="{i18n>appId}" />
+                    </Column>
+                    <Column minScreenWidth="Tablet" demandPopin="true">
+                        <Text text="{i18n>appName}" />
+                    </Column>
+                    <Column minScreenWidth="Desktop" demandPopin="true" hAlign="End">
+                        <Text text="{i18n>pillar}" />
+                    </Column>
+                    <Column minScreenWidth="Desktop" demandPopin="true" hAlign="End">
+                        <Text text="{i18n>iTService}" />
+                    </Column>
+                    <Column minScreenWidth="Desktop" demandPopin="true" hAlign="Center">
+                        <Text text="{i18n>appType}" />
+                    </Column>
+                    <Column hAlign="End">
+                        <Text text="{i18n>assignGroup}" />
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem>
+                        <cells>
+                            <ObjectIdentifier title="{tableModel>AppID}"/>
+                            <Text text="{tableModel>AppName}" />
+                            <Text text="{tableModel>Pillar}" />
+                            <Text text="{tableModel>ITService}" />
+                            <Text text="{tableModel>AppType}" />
+                            <Text text="{tableModel>AssignmentGroup}" />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </content>
+    </Page>
+</mvc:View>

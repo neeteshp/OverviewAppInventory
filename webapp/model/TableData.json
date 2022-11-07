@@ -1,0 +1,48 @@
+{
+	"Data": [
+        {
+			"AppID": "App1",
+			"AppName": "Fiori Demo1",
+			"Pillar": "Pillar1",
+			"ITService": "IT Service 1",
+            "AppType" : "App Type 1",
+            "AssignmentGroup": "Assignment Group 1"
+		}, {
+			"AppID": "App2",
+			"AppName": "Fiori Demo2",
+			"Pillar": "Pillar2",
+			"ITService": "IT Service 2",
+            "AppType" : "App Type 2",
+            "AssignmentGroup": "Assignment Group 2"
+		}, {
+			"AppID": "App3",
+			"AppName": "Fiori Demo3",
+			"Pillar": "Pillar3",
+			"ITService": "IT Service 3",
+            "AppType" : "App Type 3",
+            "AssignmentGroup": "Assignment Group 3"
+		},
+        {
+			"AppID": "App4",
+			"AppName": "Fiori Demo4",
+			"Pillar": "Pillar4",
+			"ITService": "IT Service 4",
+            "AppType" : "App Type 4",
+            "AssignmentGroup": "Assignment Group 4"
+		}, {
+			"AppID": "App5",
+			"AppName": "Fiori Demo5",
+			"Pillar": "Pillar5",
+			"ITService": "IT Service 5",
+            "AppType" : "App Type 5",
+            "AssignmentGroup": "Assignment Group 5"
+		}, {
+			"AppID": "App6",
+			"AppName": "Fiori Demo6",
+			"Pillar": "Pillar6",
+			"ITService": "IT Service 6",
+            "AppType" : "App Type 6",
+            "AssignmentGroup": "Assignment Group 6"
+		}
+	]
+}
