@@ -4,8 +4,8 @@
     displayBlock="true" 
     xmlns:core="sap.ui.core" 
     xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
-        <content>
+    <!-- <Page id="page" title="{i18n>title}">
+        <content> -->
             <Table 
                 class="sapUiSizeCompact" 
                 id="table1" 
@@ -58,6 +58,6 @@
                     </ColumnListItem>
                 </items>
             </Table>
-        </content>
-    </Page>
+        <!-- </content>
+    </Page> -->
 </mvc:View>
